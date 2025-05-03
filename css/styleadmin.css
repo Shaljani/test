@@ -1,0 +1,364 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Poppins',sans-serif
+}
+:root{
+  --main-color:black;
+  --box-shadow:0.5rem
+}
+
+html {
+  font-size: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 9px ;
+}
+
+section{
+  padding: 5rem 10%;
+}
+
+.header{
+  background-color: white;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000 !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* Modification du header pour le rendre blanc */
+.header {
+    background-color: white !important; /* Change le fond en blanc */
+    color: black !important; /* Change le texte en noir */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; /* Ajoute une légère ombre */
+}
+
+
+
+.header .logo{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 0%);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.header .navbar{
+  z-index: 1000;
+}
+
+.header .navbar a{
+  font-size: 15px;
+  margin-left: 2rem;
+  color: black;
+}
+
+#register-btn{
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.header .menu-reduit{
+  color: #000000;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: none;
+}
+
+.menu-redu{
+ display: none;
+ height: 0;
+ position: absolute;
+ right: 2rem;
+ width: 200px;
+ background: rgba(0, 0, 0, 0.2);
+ backdrop-filter: blur(15px);
+ overflow: hidden;
+ border-radius: 10px;
+ transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ 
+}
+
+.menu-redu.open{
+  height: 250px;
+}
+
+.menu-redu a{
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 990px) {
+    .navbar {
+      display: none;
+    }
+  
+    .header .menu-reduit {
+      display: block;  /* Assurer que le menu burger est visible */
+    }
+  
+    .menu-redu {
+      display: block;
+      height: 0;  /* Initialement caché */
+      overflow: hidden;
+      position: absolute;
+      right: 2rem;
+      top: 100px;  /* Juste sous le header */
+      width: 200px;
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(10px);
+      border-radius: 10px;
+      transition: height 0.3s ease-in-out;
+    }
+  
+    .menu-redu.open {
+      height: auto;  /* Ouvre correctement le menu */
+      padding: 10px 0;
+    }
+  
+    .menu-redu a {
+      color: white;
+      display: block;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+  
+
+
+
+  
+
+  @media (max-width: 768px) {
+    .user-list {
+        grid-template-columns: 1fr 1fr;  /* Affichage en 2 colonnes sur mobile */
+        gap: 10px;  /* Ajoute un petit espace entre les éléments */
+    }
+
+    .user-list.header {
+        display: none;  /* Masquer l’en-tête du tableau sur mobile */
+    }
+
+    .user-list > div {
+        min-width: auto;  /* Éviter que les éléments deviennent trop petits */
+    }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+}
+
+.admin-table-container {
+  margin-bottom: 30px; /* espace entre le tableau et le footer */
+}
+
+
+.admin-table-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.admin-table-container h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.admin-table-wrapper {
+  overflow-x: auto;
+  max-height: 500px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+  background-color: white;
+}
+
+.admin-table th, .admin-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.admin-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.admin-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Boutons */
+.ban-btn, .unban-btn, .edit-btn {
+  padding: 6px 12px;
+  margin: 2px;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.ban-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.unban-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: black;
+}
+
+.pagination {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.prev-btn, .next-btn {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.prev-btn:hover, .next-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* --- Responsive mobile --- */
+@media (max-width: 600px) {
+  .user-card {
+    padding: 15px;
+  }
+  .action-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: #ffffff;
+    color: #00203f;
+    padding: 20px 0;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.footer-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.footer-section {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.footer-section h2, 
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #00203f;
+}
+
+.footer-section ul {
+    list-style: none;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #00203f;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fee126;
+}
+
+.social-icons a {
+    color: #00203f;
+    margin-right: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+    border-top: 1px solid #00203f;
+    margin-top: 20px;
+}

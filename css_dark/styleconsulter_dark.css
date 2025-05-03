@@ -1,0 +1,50 @@
+.header {
+  background-color: #1f1f1f !important; /* même que le fond général */
+  color: var(--white) !important;
+  box-shadow: 0px 4px 12px var(--shadow-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header .logo {
+  color: white !important;
+}
+
+.header .navbar a {
+  color: white !important;
+  transition: color 0.3s;
+}
+
+.header .navbar a:hover {
+  color: var(--primary-color) !important;
+}
+
+.header .menu-reduit {
+  color: var(--noir) !important;
+}
+
+
+/* FOOTER sombre */
+footer {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 40px 10%;
+  font-size: 14px;
+}
+
+.footer-section h2,
+.footer-section h3,
+.footer-section ul li a,
+.footer-bottom {
+  color: white;
+}
+
+.footer-section ul li a:hover,
+.social-icons a:hover {
+  color: #fee126;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 10px;
+  font-size: 18px;
+}

@@ -1,0 +1,113 @@
+.header {
+  background-color: #1f1f1f !important; /* même que le fond général */
+  color: var(--white) !important;
+  box-shadow: 0px 4px 12px var(--shadow-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header .logo {
+  color: white !important;
+}
+
+.header .navbar a {
+  color: white !important;
+  transition: color 0.3s;
+}
+
+.header .navbar a:hover {
+  color: var(--primary-color) !important;
+}
+
+.header .menu-reduit {
+  color: var(--noir) !important;
+}
+
+  
+/* Footer texte en blanc pour le thème sombre */
+
+.footer-section,
+.footer-container,
+footer {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.footer-section a,
+.footer-bottom {
+  color: white;
+}
+
+.footer-section a:hover {
+  color: #ff7f50;
+}
+
+footer,
+footer h2,
+footer h3,
+footer p,
+footer a,
+.footer-section,
+.footer-bottom {
+color: white !important;
+}
+
+footer a:hover {
+color: #fee126; /* couleur hover lisible */
+}
+
+body {
+    background-color: #121212 !important;
+    color: white !important;
+  }
+  
+  /* Table principale */
+  table {
+    background-color: #1f1f1f !important;
+    color: white !important;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Ligne impaire (effet zébré léger si souhaité) */
+  tr:nth-child(even) {
+    background-color: #181818;
+  }
+  
+  /* Bouton Suivant */
+  button, .btn-blue {
+    background-color: #1a73e8 !important;
+    color: white !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  /* Boutons dans tableau */
+  button.bannir {
+    background-color: #e74c3c !important;
+    color: white !important;
+  }
+  
+  button.consulter {
+    background-color: #f1c40f !important;
+    color: black !important;
+  }
+  
+  /* Section titre */
+  h1, h2, h3, h4, h5, h6 {
+    color: white !important;
+  }
+  
+  /* Pour que les cellules ne soient pas blanches */
+  td, th {
+    background-color: #1f1f1f !important;
+  }
+  
+  

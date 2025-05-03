@@ -1,0 +1,205 @@
+[
+    {
+        "email": "test@admin.com",
+        "password": "$2y$10$2HCC6v3bYbKTqEIs1NST4uCsMfHHuWnF2XCO4Ff06JZjWt5dhbTzy",
+        "role": "administrator",
+        "personal_info": {
+            "name": "Mohamed Ouhab",
+            "nickname": "",
+            "birthdate": "2015-01-17",
+            "address": "78500"
+        },
+        "registration_date": "2025-03-30",
+        "last_login_date": "2025-03-30",
+        "trips_history": [
+            {
+                "trip_id": "2",
+                "title": "Voyage personnalis\u00e9",
+                "date": "2025-03-31",
+                "custom_options": [
+                    {
+                        "step": "Arriv\u00e9e \u00e0 Matemwe et installation",
+                        "hebergement": "Chambre standard",
+                        "restauration": "Buffet local",
+                        "activite": "Plage priv\u00e9e",
+                        "transport": "Transfert a\u00e9roport priv\u00e9",
+                        "participants": "1"
+                    },
+                    {
+                        "step": "Exploration marine autour de Mnemba",
+                        "hebergement": "Villa sur pilotis",
+                        "restauration": "Formule all-inclusive",
+                        "activite": "Snorkeling autour de l'\u00eele",
+                        "transport": "Bateau priv\u00e9",
+                        "participants": "1"
+                    },
+                    {
+                        "step": "Culture et nature \u00e0 Stone Town",
+                        "hebergement": "H\u00f4tel traditionnel swahili",
+                        "restauration": "Cuisine swahilie",
+                        "activite": "Visite guid\u00e9e de la ville",
+                        "transport": "Minibus avec guide",
+                        "participants": "1"
+                    }
+                ]
+            },
+            {
+                "trip_id": "4",
+                "title": "Voyage personnalis\u00e9",
+                "date": "2025-03-31",
+                "custom_options": [
+                    {
+                        "step": "Arriv\u00e9e \u00e0 El Calafate et d\u00e9part vers El Chalt\u00e9n",
+                        "hebergement": "Auberge typique",
+                        "restauration": "Cuisine patagonique",
+                        "activite": "D\u00e9couverte libre",
+                        "transport": "Bus de montagne",
+                        "participants": "1"
+                    },
+                    {
+                        "step": "Trekking autour du Fitz Roy",
+                        "hebergement": "Refuge",
+                        "restauration": "Pension compl\u00e8te",
+                        "activite": "Trekking 6-8h\/jour",
+                        "transport": "\u00c0 pied",
+                        "participants": "1"
+                    },
+                    {
+                        "step": "Exploration du glacier Perito Moreno",
+                        "hebergement": "H\u00e9bergement rural",
+                        "restauration": "Repas locaux",
+                        "activite": "Marche sur glacier (option)",
+                        "transport": "Bateau",
+                        "participants": "1"
+                    },
+                    {
+                        "step": "Retour et d\u00e9tente \u00e0 El Calafate",
+                        "hebergement": "Lodge tout confort",
+                        "restauration": "Restaurant local",
+                        "activite": "Visite mus\u00e9e des glaciers",
+                        "transport": "Minibus",
+                        "participants": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "email": "admin2@test.com",
+        "password": "$2y$10$lLXPFS3.lJz0miPlo5.LDejPjM\/OtCSoBGAtDUkgzqUYwswIi4XTe",
+        "role": "administrator",
+        "personal_info": {
+            "name": "Edonis Shaljani",
+            "nickname": "",
+            "birthdate": "2005-01-17",
+            "address": ""
+        },
+        "registration_date": "2025-03-31",
+        "last_login_date": "2025-03-31",
+        "trips_history": []
+    },
+    {
+        "email": "slave1@test.com",
+        "password": "$2y$10$sbAmKSx1XWvzINUMkSyi3uU0LPa7L2KaOeZlHv4BiwAn2weLMK7\/.",
+        "role": "normal",
+        "personal_info": {
+            "name": "Taimim Jelouali",
+            "nickname": "",
+            "birthdate": "2005-07-21",
+            "address": ""
+        },
+        "registration_date": "2025-03-31",
+        "last_login_date": "2025-03-31",
+        "trips_history": [
+            {
+                "trip_id": "3",
+                "title": "Voyage personnalis\u00e9",
+                "date": "2025-05-01",
+                "custom_options": [
+                    {
+                        "step": "Installation au lodge",
+                        "hebergement": "Lodge moderne",
+                        "restauration": "Buffet local",
+                        "activite": "D\u00eener sous les \u00e9toiles",
+                        "transport": "Transfert 4x4",
+                        "participants": "1"
+                    },
+                    {
+                        "step": "Safari et photographie",
+                        "hebergement": "Tente safari luxe",
+                        "restauration": "Petit d\u00e9jeuner",
+                        "activite": "Safari 4x4",
+                        "transport": "4x4 avec guide",
+                        "participants": "1"
+                    },
+                    {
+                        "step": "Excursions et immersion culturelle",
+                        "hebergement": "Lodge panoramique",
+                        "restauration": "D\u00eener traditionnel Massa\u00ef",
+                        "activite": "Montgolfi\u00e8re au lever du soleil",
+                        "transport": "Marche guid\u00e9e",
+                        "participants": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "email": "slave2@test.com",
+        "password": "$2y$10$4JPrJwdVlYmocIsB6Epnu.XpZXawXh.xVSoOEs539OCHtI2YZCK6W",
+        "role": "normal",
+        "personal_info": {
+            "name": "Jean Dupont",
+            "nickname": "",
+            "birthdate": "2004-05-05",
+            "address": ""
+        },
+        "registration_date": "2025-03-31",
+        "last_login_date": "2025-03-31",
+        "trips_history": []
+    },
+    {
+        "email": "craquance@street.fr",
+        "password": "$2y$10$1OoMb8tPvies.rHAvSpCe.zJ8WrPcJI8bU8SNGOFTFztaXxUOBZRS",
+        "role": "normal",
+        "personal_info": {
+            "name": "Alaa Kellai",
+            "nickname": "",
+            "birthdate": "2005-01-11",
+            "address": ""
+        },
+        "registration_date": "2025-03-31",
+        "last_login_date": "2025-03-31",
+        "trips_history": [
+            {
+                "trip_id": "15",
+                "title": "Voyage personnalis\u00e9",
+                "date": "2025-03-31",
+                "custom_options": [
+                    {
+                        "step": "Trek dans les montagnes de l\u2019Atlas",
+                        "hebergement": "Petit h\u00f4tel de charme",
+                        "restauration": "Tajine traditionnel",
+                        "activite": "Randonn\u00e9e \u00e0 travers les vall\u00e9es",
+                        "transport": "Marche",
+                        "participants": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "email": "mohamed.ouhab@gmail.com",
+        "password": "$2y$10$Z.W.9hniPzl8J\/pqpED.2u7I3qFnGarP4Qh5T\/RsJvu.gpDxwPw\/2",
+        "role": "normal",
+        "personal_info": {
+            "name": "Mohamed Ouhab",
+            "nickname": "",
+            "birthdate": "1997-01-17",
+            "address": "78500"
+        },
+        "registration_date": "2025-05-01",
+        "last_login_date": "2025-05-01",
+        "trips_history": []
+    }
+]

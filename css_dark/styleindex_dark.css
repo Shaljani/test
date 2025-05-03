@@ -1,0 +1,243 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .header {
+    background-color: #1f1f1f;
+    color: white;
+  }
+  
+  .header .logo {
+    color: white;
+  }
+  
+  .header .navbar a {
+    color: white;
+  }
+  
+  button, .search-btn {
+    background: #ff7f50;
+    color: white;
+  }
+  
+  button:hover, .search-btn:hover {
+    background: #ff976e;
+  }
+  
+  .about, .testimonial, .blog-container article, .contact, .newsletter {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+  }
+  
+  .testimonial-container .testimonial {
+    background-color: #1e1e1e;
+    border: 1px solid #555;
+    color: white;
+    transition: border 0.3s ease;
+  }
+  
+  .testimonial-container .testimonial:hover {
+    border: 1px solid #ffffff;
+  }
+  
+  .blog-container article {
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  .blog-container h3,
+  .contact-container h2,
+  .newsletter-content h2,
+  .about h2,
+  .about p,
+  .about strong,
+  .blog h2,
+  .testimonials h2 {
+    color: white;
+  }
+
+  .about h2 i {
+    color: #00bfff !important; /* bleu clair lisible */
+  }
+  
+  input, textarea {
+    background-color: #2c2c2c;
+    color: white;
+    border: 1px solid #888;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #ccc;
+  }
+  
+  .newsletter, .contact {
+    background: #1b1b1b;
+  }
+  
+
+
+  button, .search-btn {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  button:hover, .search-btn:hover {
+    background: white;
+    color: #121212;
+  }
+
+  .blog-container article {
+    background: #1f1f1f;
+    color: white;
+    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.05);
+  }
+  
+  .blog-container article h3 {
+    color: white;
+  }
+  
+  .blog-container article p {
+    color: #e0e0e0;
+  }
+
+  /* Fond noir pour la section des conseils en thème sombre */
+.blog {
+    background-color: #111 !important; /* noir doux */
+    color: white !important;
+  }
+  
+  .blog h2,
+  .blog-container article,
+  .blog-container p,
+  .blog-container h3 {
+    color: white !important;
+  }
+  
+  .blog-container article {
+    background-color: #1a1a1a !important;
+    border: 1px solid white !important;
+  }
+  
+  .blog-container article:hover {
+    box-shadow: 0 0 10px white;
+  }
+
+  /* Fond sombre et texte blanc pour la section des avis en thème sombre */
+/* Section des avis - fond sombre + texte blanc */
+.testimonials {
+    background-color: #111 !important;
+    color: white !important;
+  }
+  
+  .testimonials h2 {
+    color: white !important;
+  }
+  
+  /* Cartes d'avis */
+  .testimonial {
+    background-color: #1a1a1a !important;
+    color: white !important;
+    border: 1px solid white !important;
+  }
+  
+  /* Forcer texte à l'intérieur à être blanc */
+  .testimonial p,
+  .testimonial h4 {
+    color: white !important;
+  }
+  
+  .testimonial:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Blanc doux */
+    border: 1px solid white !important;
+  }
+
+  /* Footer texte en blanc pour le thème sombre */
+
+  .footer-section,
+  .footer-container,
+  footer {
+    background-color: #1a1a1a;
+    color: white;
+  }
+  
+  .footer-section a,
+  .footer-bottom {
+    color: white;
+  }
+  
+  .footer-section a:hover {
+    color: #ff7f50;
+  }
+  
+footer,
+footer h2,
+footer h3,
+footer p,
+footer a,
+.footer-section,
+.footer-bottom {
+  color: white !important;
+}
+
+footer a:hover {
+  color: #fee126; /* couleur hover lisible */
+}
+
+/* Wrapper pour centrage */
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
+  }
+  
+  /* Switch */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    margin: 0 20px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* Style du slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 24px;
+  }
+  
+  .slider::before {
+    position: absolute;
+    content: "";
+    height: 18px; width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  /* Actif */
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:checked + .slider::before {
+    transform: translateX(26px);
+  }
+  

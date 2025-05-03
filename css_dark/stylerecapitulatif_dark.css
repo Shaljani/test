@@ -1,0 +1,71 @@
+/* === GLOBAL === */
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* === CONTENEUR PRINCIPAL === */
+section, form, .voyage-detail, .container, .main-content {
+    background-color: #121212 !important;
+    color: #fff !important;
+}
+
+
+/* === TITRES & TEXTES === */
+h1, h2, h3, h4, h5, h6, p, label, li, a, td, th, span {
+    color: #fff !important;
+}
+
+/* === BLOCS PERSONNALISATION === */
+.bloc-personnalisation,
+.step {
+    background-color: #111 !important;
+    color: #fff !important;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+/* === FORMULAIRES === */
+form input,
+form select,
+input[type="number"],
+select {
+    background-color: #222;
+    color: #000000;
+    border: 1px solid #555;
+    padding: 6px 10px;
+    border-radius: 5px;
+    width: auto;
+}
+
+select option {
+    background-color: #111;
+    color: #fff;
+}
+
+/* === TABLEAU DU RÉCAPITULATIF === */
+table {
+    width: 100%;
+    background-color: #111 !important; /* fond sombre */
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table th, table td {
+    background-color: #111 !important;
+    color: #fff !important;
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+table thead th {
+    background-color: #1a1a1a !important;
+    color: #fff !important;
+    font-weight: bold;
+}

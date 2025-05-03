@@ -1,0 +1,109 @@
+body {
+    background-color: #121212;
+    color: white;
+}
+
+.header {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.header .logo,
+.header .navbar a {
+    color: white;
+}
+
+form {
+    background-color: #1f1f1f;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.1);
+    color: white;
+}
+
+.form-container h1 {
+    color: white; /* Texte visible sur fond sombre */
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .form-container a {
+    color: #00aaff; /* Bleu clair lisible sur fond sombre */
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  
+  
+
+.form-container {
+    background-color: #1f1f1f; /* Couleur sombre uniforme */
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+  
+
+form input[type="email"],
+form input[type="password"] {
+    background-color: #2c2c2c;
+    color: white;
+    border: 1px solid #444;
+}
+
+form input::placeholder {
+    color: #bbb;
+}
+
+form button[type="submit"] {
+    background-color: #ffcc00;
+    color: #121212;
+    font-weight: bold;
+    border: none;
+    transition: background 0.3s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #ffd633;
+}
+
+form a {
+    color: #ddd;
+}
+
+form a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+.footer-section,
+.footer-container,
+footer {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.footer-section a,
+.footer-bottom {
+  color: white;
+}
+
+.footer-section a:hover {
+  color: #ff7f50;
+}
+
+footer,
+footer h2,
+footer h3,
+footer p,
+footer a,
+.footer-section,
+.footer-bottom {
+  color: white !important;
+}
+
+footer a:hover {
+  color: #fee126; /* couleur hover lisible */
+}

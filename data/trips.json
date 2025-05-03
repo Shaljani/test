@@ -1,0 +1,1961 @@
+[
+  {
+    "id": 1,
+    "slug": "alpes",
+    "image": "image/alpes.jpeg",
+    "title": "Les Alpes",
+    "description": "Randonnée douce au cœur des Alpes pour tous les niveaux.",
+    "long_description": "Découvrez les Alpes à travers un itinéraire accessible, entre montagnes majestueuses, vallées verdoyantes et hébergements authentiques. Ce voyage est idéal pour les familles ou les randonneurs souhaitant profiter de paysages incroyables sans difficulté technique.",
+    "start_date": "2025-07-10",
+    "end_date": "2025-07-16",
+    "duration": 6,
+    "price": 900,
+    "difficulty": "facile",
+    "season": "été",
+    "steps": [
+      {
+        "title": "Arrivée à Chamonix",
+        "arrival_date": "2025-07-10",
+        "departure_date": "2025-07-11",
+        "location": {
+          "city": "Chamonix",
+          "gps": "45.9237, 6.8694"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Refuge de montagne",
+              "prix": 200
+            },
+            {
+              "label": "Hôtel 3★",
+              "prix": 400
+            },
+            {
+              "label": "Camping",
+              "prix": 60
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Petit déjeuner",
+              "prix": 10
+            },
+            {
+              "label": "Demi-pension",
+              "prix": 20
+            },
+            {
+              "label": "Pique-nique",
+              "prix": 30
+            }
+          ],
+          "activites": [
+            {
+              "label": "Visite de Chamonix",
+              "prix": 80
+            },
+            {
+              "label": "Téléphérique de l'Aiguille du Midi",
+              "prix": 50
+            },
+            {
+              "label": "Musée Alpin",
+              "prix": 80
+            }
+          ],
+          "transport": [
+            {
+              "label": "Train Mont-Blanc Express",
+              "prix": 10
+            },
+            {
+              "label": "Marche",
+              "prix": 20
+            }
+          ]
+        }
+      },
+      {
+        "title": "Lac Blanc et réserve naturelle",
+        "arrival_date": "2025-07-11",
+        "departure_date": "2025-07-13",
+        "location": {
+          "city": "Lac Blanc",
+          "gps": "45.9762, 6.8964"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Refuge",
+              "prix": 250
+            },
+            {
+              "label": "Bivouac",
+              "prix": 408
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Demi-pension",
+              "prix": 25
+            },
+            {
+              "label": "Pique-nique",
+              "prix": 20
+            }
+          ],
+          "activites": [
+            {
+              "label": "Randonnée",
+              "prix": 15
+            },
+            {
+              "label": "Observation des marmottes",
+              "prix": 50
+            },
+            {
+              "label": "Photo panoramique",
+              "prix": 86
+            }
+          ],
+          "transport": [
+            {
+              "label": "Marche",
+              "prix": 10
+            },
+            {
+              "label": "Télécabine",
+              "prix": 20
+            }
+          ]
+        }
+      },
+      {
+        "title": "Retour via la Mer de Glace",
+        "arrival_date": "2025-07-13",
+        "departure_date": "2025-07-16",
+        "location": {
+          "city": "Mer de Glace",
+          "gps": "45.9225, 6.9311"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Hôtel 3★",
+              "prix": 265
+            },
+            {
+              "label": "Refuge",
+              "prix": 40
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Demi-pension",
+              "prix": 10
+            },
+            {
+              "label": "Petit déjeuner",
+              "prix": 30
+            }
+          ],
+          "activites": [
+            {
+              "label": "Randonnée glaciaire",
+              "prix": 15
+            },
+            {
+              "label": "Train du Montenvers",
+              "prix": 300
+            }
+          ],
+          "transport": [
+            {
+              "label": "Train",
+              "prix": 10
+            },
+            {
+              "label": "Marche",
+              "prix": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "mnemba",
+    "image": "image/mnemba.jpg",
+    "title": "Palumbo Mnemba View Resort 4★ (Tanzanie)",
+    "description": "Séjour détente et découverte au cœur de Zanzibar avec vue imprenable sur l’île de Mnemba.",
+    "long_description": "Situé à Matemwe, le Palumbo Mnemba View Resort 4★ vous invite à la détente dans un cadre tropical paradisiaque. Profitez de plages de sable blanc, d’activités nautiques et de découvertes culturelles dans une atmosphère paisible. Idéal pour se ressourcer ou explorer les trésors de l’archipel.",
+    "start_date": "2025-08-05",
+    "end_date": "2025-08-12",
+    "duration": 7,
+    "price": 1500,
+    "difficulty": "facile",
+    "season": "été",
+    "steps": [
+      {
+        "title": "Arrivée à Matemwe et installation",
+        "arrival_date": "2025-08-05",
+        "departure_date": "2025-08-06",
+        "location": {
+          "city": "Matemwe",
+          "gps": "-5.8732, 39.3673"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Chambre standard",
+              "prix": 250
+            },
+            {
+              "label": "Villa vue mer",
+              "prix": 400
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Buffet local",
+              "prix": 100
+            },
+            {
+              "label": "Menu végétarien",
+              "prix": 200
+            },
+            {
+              "label": "Spécialités internationales",
+              "prix": 300
+            }
+          ],
+          "activites": [
+            {
+              "label": "Plage privée",
+              "prix": 140
+            },
+            {
+              "label": "Piscine",
+              "prix": 70
+            },
+            {
+              "label": "Massage de bienvenue",
+              "prix": 45
+            }
+          ],
+          "transport": [
+            {
+              "label": "Transfert aéroport privé",
+              "prix": 10
+            },
+            {
+              "label": "Taxi local",
+              "prix": 20
+            }
+          ]
+        }
+      },
+      {
+        "title": "Exploration marine autour de Mnemba",
+        "arrival_date": "2025-08-06",
+        "departure_date": "2025-08-09",
+        "location": {
+          "city": "Mnemba",
+          "gps": "-5.8333, 39.3833"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Villa sur pilotis",
+              "prix": 300
+            },
+            {
+              "label": "Bungalow vue lagon",
+              "prix": 200
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Pension complète",
+              "prix": 150
+            },
+            {
+              "label": "Formule all-inclusive",
+              "prix": 200
+            }
+          ],
+          "activites": [
+            {
+              "label": "Snorkeling autour de l'île",
+              "prix": 40
+            },
+            {
+              "label": "Kayak transparent",
+              "prix": 30
+            },
+            {
+              "label": "Excursion en bateau à fond de verre",
+              "prix": 45
+            },
+            {
+              "label": "Cours de yoga sur la plage",
+              "prix": 60
+            }
+          ],
+          "transport": [
+            {
+              "label": "Bateau privé",
+              "prix": 10
+            },
+            {
+              "label": "Navette marine collective",
+              "prix": 20
+            }
+          ]
+        }
+      },
+      {
+        "title": "Culture et nature à Stone Town",
+        "arrival_date": "2025-08-09",
+        "departure_date": "2025-08-12",
+        "location": {
+          "city": "Stone Town",
+          "gps": "-6.1659, 39.2026"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Hôtel traditionnel swahili",
+              "prix": 250
+            },
+            {
+              "label": "Maison d’hôtes locale",
+              "prix": 400
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Cuisine swahilie",
+              "prix": 100
+            },
+            {
+              "label": "Buffet végétarien",
+              "prix": 205
+            },
+            {
+              "label": "Street food encadrée",
+              "prix": 30
+            }
+          ],
+          "activites": [
+            {
+              "label": "Visite guidée de la ville",
+              "prix": 140
+            },
+            {
+              "label": "Marché aux épices",
+              "prix": 40
+            },
+            {
+              "label": "Excursion à la forêt de Jozani",
+              "prix": 45
+            },
+            {
+              "label": "Musée Freddie Mercury",
+              "prix": 60
+            }
+          ],
+          "transport": [
+            {
+              "label": "Minibus avec guide",
+              "prix": 10
+            },
+            {
+              "label": "Tuk-tuk traditionnel",
+              "prix": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "masai-mara",
+    "image": "image/masai.jpg",
+    "title": "Safari dans le Masai Mara – Kenya",
+    "description": "Safari inoubliable au cœur de la savane africaine à la rencontre des Big Five.",
+    "long_description": "Le Masai Mara est une réserve emblématique du Kenya, célèbre pour sa faune exceptionnelle et ses paysages infinis. Profitez d’un séjour mêlant aventure, confort et immersion culturelle au plus près de la nature.",
+    "start_date": "2025-05-15",
+    "end_date": "2025-05-21",
+    "duration": 7,
+    "price": 1300,
+    "difficulty": "facile",
+    "season": "printemps",
+    "steps": [
+      {
+        "title": "Installation au lodge",
+        "arrival_date": "2025-05-15",
+        "departure_date": "2025-05-16",
+        "location": {
+          "city": "Masai Mara",
+          "gps": "-1.4931, 35.1439"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Lodge moderne",
+              "prix": 200
+            },
+            {
+              "label": "Tente safari luxe",
+              "prix": 150
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Buffet local",
+              "prix": 100
+            },
+            {
+              "label": "Cuisine internationale",
+              "prix": 60
+            },
+            {
+              "label": "Végétarien",
+              "prix": 30
+            }
+          ],
+          "activites": [
+            {
+              "label": "Dîner sous les étoiles",
+              "prix": 190
+            },
+            {
+              "label": "Piscine",
+              "prix": 100
+            },
+            {
+              "label": "Soirée chants Massaï",
+              "prix": 300
+            }
+          ],
+          "transport": [
+            {
+              "label": "Transfert 4x4",
+              "prix": 10
+            }
+          ]
+        }
+      },
+      {
+        "title": "Safari et photographie",
+        "arrival_date": "2025-05-16",
+        "departure_date": "2025-05-19",
+        "location": {
+          "city": "Masai Mara",
+          "gps": "-1.4931, 35.1439"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Tente safari luxe",
+              "prix": 200
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Petit déjeuner",
+              "prix": 100
+            },
+            {
+              "label": "Déjeuner sur la brousse",
+              "prix": 20
+            },
+            {
+              "label": "Dîner au lodge",
+              "prix": 30
+            }
+          ],
+          "activites": [
+            {
+              "label": "Safari 4x4",
+              "prix": 150
+            },
+            {
+              "label": "Photographie animalière",
+              "prix": 30
+            },
+            {
+              "label": "Observation du Big Five",
+              "prix": 45
+            }
+          ],
+          "transport": [
+            {
+              "label": "4x4 avec guide",
+              "prix": 50
+            }
+          ]
+        }
+      },
+      {
+        "title": "Excursions et immersion culturelle",
+        "arrival_date": "2025-05-19",
+        "departure_date": "2025-05-21",
+        "location": {
+          "city": "Masai Mara",
+          "gps": "-1.4931, 35.1439"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Lodge panoramique",
+              "prix": 200
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Dîner traditionnel Massaï",
+              "prix": 10
+            },
+            {
+              "label": "Brunch",
+              "prix": 20
+            }
+          ],
+          "activites": [
+            {
+              "label": "Montgolfière au lever du soleil",
+              "prix": 45
+            },
+            {
+              "label": "Visite village Massaï",
+              "prix": 30
+            },
+            {
+              "label": "Safari de nuit",
+              "prix": 45
+            }
+          ],
+          "transport": [
+            {
+              "label": "Marche guidée",
+              "prix": 45
+            },
+            {
+              "label": "Safari nocturne",
+              "prix": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "patagonie",
+    "image": "image/patagonie.jpg",
+    "title": "Randonnée en Patagonie – Argentine",
+    "description": "Trekking au cœur des glaciers et paysages sauvages de la Patagonie argentine.",
+    "long_description": "La Patagonie argentine est une région mythique connue pour ses paysages grandioses et sauvages. Ce séjour vous emmène au cœur du parc national Los Glaciares, classé au patrimoine mondial de l’UNESCO, entre montagnes vertigineuses, forêts denses, rivières turquoise et glaciers impressionnants comme le Perito Moreno.",
+    "start_date": "2025-06-25",
+    "end_date": "2025-07-05",
+    "duration": 10,
+    "price": 1800,
+    "difficulty": "difficile",
+    "season": "hiver",
+    "steps": [
+      {
+        "title": "Arrivée à El Calafate et départ vers El Chaltén",
+        "arrival_date": "2025-06-25",
+        "departure_date": "2025-06-26",
+        "location": {
+          "city": "El Calafate",
+          "gps": "-50.3379, -72.2648"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Auberge typique",
+              "prix": 500
+            },
+            {
+              "label": "Lodge de montagne",
+              "prix": 400
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Cuisine patagonique",
+              "prix": 50
+            },
+            {
+              "label": "Asado",
+              "prix": 20
+            },
+            {
+              "label": "Empanadas",
+              "prix": 30
+            }
+          ],
+          "activites": [
+            {
+              "label": "Découverte libre",
+              "prix": 40
+            },
+            {
+              "label": "Briefing avec les guides",
+              "prix": 30
+            }
+          ],
+          "transport": [
+            {
+              "label": "Bus de montagne",
+              "prix": 10
+            }
+          ]
+        }
+      },
+      {
+        "title": "Trekking autour du Fitz Roy",
+        "arrival_date": "2025-06-26",
+        "departure_date": "2025-06-30",
+        "location": {
+          "city": "El Chaltén",
+          "gps": "-49.3315, -72.8861"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Refuge",
+              "prix": 200
+            },
+            {
+              "label": "Lodge avec vue montagne",
+              "prix": 400
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Pension complète",
+              "prix": 100
+            },
+            {
+              "label": "Repas en refuge",
+              "prix": 20
+            }
+          ],
+          "activites": [
+            {
+              "label": "Trekking 6-8h/jour",
+              "prix": 90
+            },
+            {
+              "label": "Observation des sommets",
+              "prix": 30
+            }
+          ],
+          "transport": [
+            {
+              "label": "À pied",
+              "prix": 10
+            },
+            {
+              "label": "Bateau",
+              "prix": 20
+            }
+          ]
+        }
+      },
+      {
+        "title": "Exploration du glacier Perito Moreno",
+        "arrival_date": "2025-07-01",
+        "departure_date": "2025-07-03",
+        "location": {
+          "city": "Parc national Los Glaciares",
+          "gps": "-50.4962, -73.1374"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Hébergement rural",
+              "prix": 200
+            },
+            {
+              "label": "Refuge",
+              "prix": 400
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Repas locaux",
+              "prix": 60
+            },
+            {
+              "label": "Option végétarienne",
+              "prix": 50
+            }
+          ],
+          "activites": [
+            {
+              "label": "Marche sur glacier (option)",
+              "prix": 30
+            },
+            {
+              "label": "Excursion en bateau",
+              "prix": 30
+            },
+            {
+              "label": "Soirée feu de camp",
+              "prix": 45
+            }
+          ],
+          "transport": [
+            {
+              "label": "Bateau",
+              "prix": 10
+            },
+            {
+              "label": "Marche",
+              "prix": 20
+            },
+            {
+              "label": "Minibus",
+              "prix": 30
+            }
+          ]
+        }
+      },
+      {
+        "title": "Retour et détente à El Calafate",
+        "arrival_date": "2025-07-03",
+        "departure_date": "2025-07-05",
+        "location": {
+          "city": "El Calafate",
+          "gps": "-50.3379, -72.2648"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Lodge tout confort",
+              "prix": 250
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Restaurant local",
+              "prix": 10
+            },
+            {
+              "label": "Buffet",
+              "prix": 50
+            }
+          ],
+          "activites": [
+            {
+              "label": "Visite musée des glaciers",
+              "prix": 30
+            },
+            {
+              "label": "Shopping artisanal",
+              "prix": 60
+            }
+          ],
+          "transport": [
+            {
+              "label": "Minibus",
+              "prix": 10
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "himalaya",
+    "image": "image/himalaya.jpg",
+    "title": "Découverte de l’Himalaya – Népal",
+    "description": "Trek inoubliable au cœur des sommets enneigés du Népal et des villages bouddhistes.",
+    "long_description": "Partez à la découverte des sommets majestueux de l’Himalaya, au Népal. Ce trek vous offre une immersion dans des paysages grandioses, entre vallées profondes, monastères perchés et panoramas sur des montagnes enneigées. L’itinéraire vous mènera à travers des villages traditionnels et des sentiers isolés, loin du tourisme de masse.",
+    "start_date": "2025-07-05",
+    "end_date": "2025-07-17",
+    "duration": 12,
+    "price": 1900,
+    "difficulty": "difficile",
+    "season": "été",
+    "steps": [
+      {
+        "title": "Arrivée à Katmandou et préparation",
+        "arrival_date": "2025-07-05",
+        "departure_date": "2025-07-06",
+        "location": {
+          "city": "Katmandou",
+          "gps": "27.7172, 85.3240"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Hôtel traditionnel népalais",
+              "prix": 350
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Cuisine locale",
+              "prix": 55
+            },
+            {
+              "label": "Repas d’accueil",
+              "prix": 30
+            }
+          ],
+          "activites": [
+            {
+              "label": "Visite du quartier Thamel",
+              "prix": 85
+            },
+            {
+              "label": "Briefing trek",
+              "prix": 105
+            }
+          ],
+          "transport": [
+            {
+              "label": "Minibus",
+              "prix": 10
+            }
+          ]
+        }
+      },
+      {
+        "title": "Début du trek dans les Annapurnas",
+        "arrival_date": "2025-07-06",
+        "departure_date": "2025-07-12",
+        "location": {
+          "city": "Annapurnas",
+          "gps": "28.5306, 83.8790"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Lodges de montagne",
+              "prix": 300
+            },
+            {
+              "label": "Tentes d’altitude",
+              "prix": 450
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Pension complète",
+              "prix": 50
+            },
+            {
+              "label": "Cuisine népalaise",
+              "prix": 85
+            }
+          ],
+          "activites": [
+            {
+              "label": "Trekking",
+              "prix": 100
+            },
+            {
+              "label": "Observation faune et flore",
+              "prix": 110
+            },
+            {
+              "label": "Yoga au lever du soleil",
+              "prix": 105
+            }
+          ],
+          "transport": [
+            {
+              "label": "Marche",
+              "prix": 50
+            },
+            {
+              "label": "Bus local",
+              "prix": 20
+            }
+          ]
+        }
+      },
+      {
+        "title": "Immersion culturelle et repos",
+        "arrival_date": "2025-07-13",
+        "departure_date": "2025-07-15",
+        "location": {
+          "city": "Village bouddhiste",
+          "gps": "28.3838, 84.1240"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Maison d’hôtes locale",
+              "prix": 240
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Cuisine maison",
+              "prix": 100
+            },
+            {
+              "label": "Plats végétariens disponibles",
+              "prix": 200
+            }
+          ],
+          "activites": [
+            {
+              "label": "Cérémonies bouddhistes",
+              "prix": 150
+            },
+            {
+              "label": "Atelier méditation",
+              "prix": 300
+            },
+            {
+              "label": "Rencontre villageois",
+              "prix": 450
+            }
+          ],
+          "transport": [
+            {
+              "label": "Marche",
+              "prix": 10
+            }
+          ]
+        }
+      },
+      {
+        "title": "Retour à Katmandou et fin du séjour",
+        "arrival_date": "2025-07-16",
+        "departure_date": "2025-07-17",
+        "location": {
+          "city": "Katmandou",
+          "gps": "27.7172, 85.3240"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Hôtel spa avec vue",
+              "prix": 200
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Dîner de clôture",
+              "prix": 80
+            },
+            {
+              "label": "Buffet international",
+              "prix": 50
+            }
+          ],
+          "activites": [
+            {
+              "label": "Shopping artisanal",
+              "prix": 110
+            },
+            {
+              "label": "Session photo",
+              "prix": 160
+            },
+            {
+              "label": "Massage traditionnel",
+              "prix": 45
+            }
+          ],
+          "transport": [
+            {
+              "label": "Minibus",
+              "prix": 10
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "islande",
+    "image": "image/islande.jpg",
+    "title": "Roadtrip en Islande",
+    "description": "Aventure de 8 jours à travers les paysages grandioses de l’Islande.",
+    "long_description": "Partez à l’aventure sur l’île de feu et de glace ! Ce roadtrip en Islande vous emmène à travers des paysages extraordinaires : cascades impressionnantes, geysers, champs de lave, et glaciers majestueux. Vous découvrirez des routes sinueuses, des volcans actifs et des plages de sable noir, le tout dans un environnement préservé et unique.",
+    "start_date": "2025-07-20",
+    "end_date": "2025-07-27",
+    "duration": 8,
+    "price": 1000,
+    "difficulty": "moyenne",
+    "season": "été",
+    "steps": [
+      {
+        "title": "Découverte du Cercle d'Or",
+        "arrival_date": "2025-07-20",
+        "departure_date": "2025-07-22",
+        "location": {
+          "city": "Thingvellir",
+          "gps": "64.255, -21.130"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Hôtel local",
+              "prix": 200
+            },
+            {
+              "label": "Auberge avec vue volcan",
+              "prix": 250
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Buffet islandais",
+              "prix": 100
+            },
+            {
+              "label": "Menu végétarien",
+              "prix": 50
+            }
+          ],
+          "activites": [
+            {
+              "label": "Geysers",
+              "prix": 50
+            },
+            {
+              "label": "Chutes de Gullfoss",
+              "prix": 40
+            },
+            {
+              "label": "Randonnée dans le parc national",
+              "prix": 45
+            }
+          ],
+          "transport": [
+            {
+              "label": "Voiture de location",
+              "prix": 150
+            },
+            {
+              "label": "Minibus avec guide",
+              "prix": 200
+            }
+          ]
+        }
+      },
+      {
+        "title": "Aventure glaciaire et côtes",
+        "arrival_date": "2025-07-22",
+        "departure_date": "2025-07-25",
+        "location": {
+          "city": "Vík",
+          "gps": "63.419, -19.006"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Auberge de charme",
+              "prix": 200
+            },
+            {
+              "label": "Guesthouse vue mer",
+              "prix": 205
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Spécialités à base de skyr",
+              "prix": 15
+            },
+            {
+              "label": "Poisson frais du jour",
+              "prix": 20
+            }
+          ],
+          "activites": [
+            {
+              "label": "Randonnée sur glacier",
+              "prix": 25
+            },
+            {
+              "label": "Plage de sable noir",
+              "prix": 30
+            },
+            {
+              "label": "Baignade source chaude",
+              "prix": 45
+            }
+          ],
+          "transport": [
+            {
+              "label": "Voiture",
+              "prix": 10
+            },
+            {
+              "label": "Excursion en quad",
+              "prix": 20
+            }
+          ]
+        }
+      },
+      {
+        "title": "Exploration des fjords du nord",
+        "arrival_date": "2025-07-25",
+        "departure_date": "2025-07-27",
+        "location": {
+          "city": "Akureyri",
+          "gps": "65.6885, -18.1262"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Hôtel moderne",
+              "prix": 150
+            },
+            {
+              "label": "Maison d’hôtes familiale",
+              "prix": 200
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Cuisine islandaise",
+              "prix": 25
+            },
+            {
+              "label": "Buffet copieux",
+              "prix": 30
+            }
+          ],
+          "activites": [
+            {
+              "label": "Balade en bateau pour observer les baleines",
+              "prix": 65
+            },
+            {
+              "label": "Sources chaudes naturelles",
+              "prix": 80
+            }
+          ],
+          "transport": [
+            {
+              "label": "Minibus",
+              "prix": 10
+            },
+            {
+              "label": "Bateau",
+              "prix": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "kilimandjaro",
+    "image": "image/kilimandjaro.jpg",
+    "title": "Expédition au Kilimandjaro (Tanzanie)",
+    "description": "Ascension du toit de l’Afrique à travers des écosystèmes variés.",
+    "long_description": "Partez pour l’ascension du Kilimandjaro, le toit de l’Afrique ! Ce trek vous immerge dans des écosystèmes variés, depuis la savane jusqu’aux neiges éternelles du sommet. Vous découvrirez des paysages spectaculaires et une faune diverse, tout en relevant le défi d’atteindre le sommet par la voie la plus accessible, la Marangu ou la Machame.",
+    "start_date": "2025-08-01",
+    "end_date": "2025-08-09",
+    "duration": 9,
+    "price": 1590,
+    "difficulty": "difficile",
+    "season": "été",
+    "steps": [
+      {
+        "title": "Ascension du Kilimandjaro",
+        "arrival_date": "2025-08-01",
+        "departure_date": "2025-08-09",
+        "location": {
+          "city": "Kilimandjaro",
+          "gps": "-3.0674, 37.3556"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Camp de tentes équipé",
+              "prix": 1000
+            },
+            {
+              "label": "Lodge d'acclimatation",
+              "prix": 1200
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Petit-déjeuner copieux",
+              "prix": 200
+            },
+            {
+              "label": "Déjeuner pique-nique en altitude",
+              "prix": 160
+            },
+            {
+              "label": "Dîner chaud préparé sur place",
+              "prix": 170
+            }
+          ],
+          "activites": [
+            {
+              "label": "Marche en altitude",
+              "prix": 380
+            },
+            {
+              "label": "Observation de la faune et flore",
+              "prix": 400
+            },
+            {
+              "label": "Ateliers de préparation physique",
+              "prix": 450
+            },
+            {
+              "label": "Sessions d’information sur l’ascension",
+              "prix": 400
+            }
+          ],
+          "transport": [
+            {
+              "label": "Marche",
+              "prix": 10
+            },
+            {
+              "label": "Transfert local jusqu’au point de départ",
+              "prix": 20
+            }
+          ]
+        }
+      }
+    ],
+    "extras": {
+      "excursions": [
+        "Visite des villages locaux pour découvrir la culture Chagga",
+        "Randonnée dans la forêt tropicale au pied du Kilimandjaro",
+        "Excursion dans les parcs nationaux environnants",
+        "Soirée traditionnelle tanzanienne"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "slug": "wadi-rum",
+    "image": "image/img33.jpeg",
+    "title": "Traversée du désert du Wadi Rum (Jordanie)",
+    "description": "Aventure dans le désert jordanien avec bivouac et traditions bédouines.",
+    "long_description": "Plongez dans l’univers mystique du désert de Wadi Rum, en Jordanie, où les paysages lunaires, les formations rocheuses spectaculaires et l’immensité du désert créent une atmosphère unique. Ce séjour vous offre l’occasion de découvrir les secrets du désert, ses traditions bédouines et ses panoramas grandioses, dans un cadre préservé et authentique.",
+    "start_date": "2025-08-15",
+    "end_date": "2025-08-21",
+    "duration": 6,
+    "price": 1120,
+    "difficulty": "facile",
+    "season": "été",
+    "steps": [
+      {
+        "title": "Exploration du désert de Wadi Rum",
+        "arrival_date": "2025-08-15",
+        "departure_date": "2025-08-21",
+        "location": {
+          "city": "Wadi Rum",
+          "gps": "29.5328, 35.4194"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Camp bédouin traditionnel",
+              "prix": 600
+            },
+            {
+              "label": "Tente équipée avec sanitaires",
+              "prix": 450
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Cuisine bédouine sous tente commune",
+              "prix": 90
+            },
+            {
+              "label": "Mansaf traditionnel",
+              "prix": 200
+            },
+            {
+              "label": "Viandes grillées et légumes orientaux",
+              "prix": 220
+            }
+          ],
+          "activites": [
+            {
+              "label": "Randonnée dans les dunes",
+              "prix": 230
+            },
+            {
+              "label": "Balade en jeep",
+              "prix": 300
+            },
+            {
+              "label": "Escalade",
+              "prix": 200
+            },
+            {
+              "label": "Feu de camp avec musique",
+              "prix": 60
+            }
+          ],
+          "transport": [
+            {
+              "label": "Jeep 4x4",
+              "prix": 200
+            },
+            {
+              "label": "Chameau",
+              "prix": 20
+            },
+            {
+              "label": "Marche",
+              "prix": 30
+            }
+          ]
+        }
+      }
+    ],
+    "extras": {
+      "excursions": [
+        "Safari en 4x4 pour explorer des zones reculées du désert",
+        "Balade à dos de chameau pour une expérience authentique",
+        "Visite d’un village bédouin traditionnel",
+        "Excursion nocturne pour observer le ciel étoilé et les constellations"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "slug": "amazonie",
+    "image": "image/amazonie.jpg",
+    "title": "Expérience jungle amazonienne (Brésil)",
+    "description": "Aventure immersive au cœur de la forêt tropicale avec activités de survie et découverte de la biodiversité.",
+    "long_description": "Plongez au cœur de la jungle amazonienne, où la végétation luxuriante et la biodiversité exceptionnelle vous offrent une immersion totale dans l’un des écosystèmes les plus fascinants de la planète. Ce séjour vous fera découvrir la vie sauvage, les rivières sinueuses et les secrets d’une forêt millénaire, dans un cadre authentique et préservé.",
+    "start_date": "2025-09-01",
+    "end_date": "2025-09-07",
+    "duration": 7,
+    "price": 1220,
+    "difficulty": "moyenne",
+    "season": "été",
+    "steps": [
+      {
+        "title": "Immersion en Amazonie",
+        "arrival_date": "2025-09-01",
+        "departure_date": "2025-09-07",
+        "location": {
+          "city": "Amazonie",
+          "gps": "-3.4653, -62.2159"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Lodge écologique",
+              "prix": 600
+            },
+            {
+              "label": "Chambre avec moustiquaire",
+              "prix": 500
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Cuisine bio locale",
+              "prix": 200
+            },
+            {
+              "label": "Poissons amazoniens",
+              "prix": 205
+            },
+            {
+              "label": "Fruits exotiques",
+              "prix": 210
+            }
+          ],
+          "activites": [
+            {
+              "label": "Randonnée guidée dans la jungle",
+              "prix": 310
+            },
+            {
+              "label": "Excursion en pirogue",
+              "prix": 300
+            },
+            {
+              "label": "Atelier de survie tropicale",
+              "prix": 200
+            },
+            {
+              "label": "Visite de communautés indigènes",
+              "prix": 60
+            }
+          ],
+          "transport": [
+            {
+              "label": "Pirogue",
+              "prix": 10
+            },
+            {
+              "label": "Marche",
+              "prix": 20
+            }
+          ]
+        }
+      }
+    ],
+    "extras": {
+      "excursions": [
+        "Balade nocturne pour observer la faune",
+        "Visite d’une communauté indigène",
+        "Descente en pirogue dans les zones reculées",
+        "Session de photographie animalière"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "slug": "kruger",
+    "image": "image/kruger.jpg",
+    "title": "Safari-photo dans le Kruger (Afrique du Sud)",
+    "description": "Partez à la rencontre des Big Five dans un décor naturel grandiose, appareil photo à la main.",
+    "long_description": "Plongez au cœur de l’un des plus grands parcs nationaux d’Afrique, le Kruger, réputé pour sa biodiversité exceptionnelle et ses panoramas grandioses. Ce safari-photo vous offre l’opportunité d’observer la faune sauvage dans son habitat naturel, y compris les fameux Big Five, tout en bénéficiant de conseils professionnels pour capturer les plus beaux clichés.",
+    "start_date": "2025-09-15",
+    "end_date": "2025-09-20",
+    "duration": 6,
+    "price": 1350,
+    "difficulty": "facile",
+    "season": "été",
+    "steps": [
+      {
+        "title": "Safari-photo dans le parc Kruger",
+        "arrival_date": "2025-09-15",
+        "departure_date": "2025-09-20",
+        "location": {
+          "city": "Kruger",
+          "gps": "-24.0, 31.5"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Lodge safari",
+              "prix": 500
+            },
+            {
+              "label": "Camp confortable",
+              "prix": 600
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Cuisine sud-africaine",
+              "prix": 105
+            },
+            {
+              "label": "Buffets variés",
+              "prix": 110
+            },
+            {
+              "label": "Plats végétariens disponibles",
+              "prix": 100
+            }
+          ],
+          "activites": [
+            {
+              "label": "Safari en 4x4",
+              "prix": 435
+            },
+            {
+              "label": "Photographie animalière",
+              "prix": 400
+            },
+            {
+              "label": "Observation des Big Five",
+              "prix": 500
+            },
+            {
+              "label": "Feu de camp nocturne",
+              "prix": 435
+            }
+          ],
+          "transport": [
+            {
+              "label": "4x4 avec guide",
+              "prix": 310
+            },
+            {
+              "label": "Balade à pied encadrée",
+              "prix": 300
+            }
+          ]
+        }
+      }
+    ],
+    "extras": {
+      "excursions": [
+        "Safari de nuit pour animaux nocturnes",
+        "Visite d’un centre de conservation",
+        "Balade à pied immersive",
+        "Atelier photo avec professionnel"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "slug": "annapurna",
+    "image": "image/annapurna.jpg",
+    "title": "Trek du Tour des Annapurnas (Népal)",
+    "description": "Trek mythique à travers les vallées, villages et sommets de l’Himalaya népalais.",
+    "long_description": "Partez à l'aventure dans le massif de l'Annapurna, une région mythique du Népal réputée pour ses panoramas époustouflants. Ce trek emblématique vous conduit à travers des vallées profondes, des forêts luxuriantes et des villages traditionnels. Vous découvrirez la richesse culturelle et la diversité géographique de cette région, dominée par des sommets enneigés et des paysages préservés.",
+    "start_date": "2025-09-25",
+    "end_date": "2025-10-08",
+    "duration": 14,
+    "price": 1750,
+    "difficulty": "difficile",
+    "season": "automne",
+    "steps": [
+      {
+        "title": "Tour des Annapurnas",
+        "arrival_date": "2025-09-25",
+        "departure_date": "2025-10-08",
+        "location": {
+          "city": "Annapurna",
+          "gps": "28.5983, 83.9311"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Lodge de montagne",
+              "prix": 1000
+            },
+            {
+              "label": "Refuge traditionnel",
+              "prix": 1000
+            },
+            {
+              "label": "Nuitée sous tente",
+              "prix": 1100
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Dal Bhat traditionnel",
+              "prix": 240
+            },
+            {
+              "label": "Repas locaux savoureux",
+              "prix": 250
+            },
+            {
+              "label": "Cuisine internationale dans refuges",
+              "prix": 300
+            }
+          ],
+          "activites": [
+            {
+              "label": "Trekking quotidien",
+              "prix": 500
+            },
+            {
+              "label": "Rencontres culturelles avec les habitants",
+              "prix": 300
+            },
+            {
+              "label": "Observation des panoramas himalayens",
+              "prix": 400
+            },
+            {
+              "label": "Soirées autour du feu",
+              "prix": 200
+            }
+          ],
+          "transport": [
+            {
+              "label": "Marche",
+              "prix": 10
+            },
+            {
+              "label": "Transfert local en jeep",
+              "prix": 20
+            }
+          ]
+        }
+      }
+    ],
+    "extras": {
+      "excursions": [
+        "Randonnée vers un lac isolé",
+        "Visite guidée de village ethnique",
+        "Session photo au lever du soleil",
+        "Spa népalais traditionnel"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "slug": "laponie",
+    "image": "image/laponie.jpg",
+    "title": "Aventure en Laponie (Finlande)",
+    "description": "Séjour féerique en Laponie avec traîneaux à chiens, aurores boréales et chalets enneigés.",
+    "long_description": "Partez à l’aventure dans les étendues enneigées de la Laponie finlandaise. Ce séjour vous immerge dans un décor féerique de forêts de sapins, de vastes étendues blanches et de ciels illuminés par les aurores boréales. Loin de l’agitation urbaine, découvrez la magie du Grand Nord et vivez une expérience authentique dans un environnement hivernal exceptionnel.",
+    "start_date": "2025-12-10",
+    "end_date": "2025-12-15",
+    "duration": 5,
+    "price": 990,
+    "difficulty": "moyenne",
+    "season": "hiver",
+    "steps": [
+      {
+        "title": "Exploration de la Laponie",
+        "arrival_date": "2025-12-10",
+        "departure_date": "2025-12-15",
+        "location": {
+          "city": "Laponie",
+          "gps": "67.5000, 26.0000"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Chalet traditionnel",
+              "prix": 400
+            },
+            {
+              "label": "Igloo de verre",
+              "prix": 400
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Poissons frais",
+              "prix": 200
+            },
+            {
+              "label": "Gibier et spécialités finlandaises",
+              "prix": 200
+            },
+            {
+              "label": "Petit-déjeuner copieux",
+              "prix": 300
+            }
+          ],
+          "activites": [
+            {
+              "label": "Balade en raquettes",
+              "prix": 250
+            },
+            {
+              "label": "Motoneige",
+              "prix": 430
+            },
+            {
+              "label": "Traîneau à chiens",
+              "prix": 450
+            },
+            {
+              "label": "Observation des aurores boréales",
+              "prix": 420
+            }
+          ],
+          "transport": [
+            {
+              "label": "Motoneige",
+              "prix": 140
+            },
+            {
+              "label": "Traîneau",
+              "prix": 20
+            }
+          ]
+        }
+      }
+    ],
+    "extras": {
+      "excursions": [
+        "Safari nocturne pour observer les aurores boréales",
+        "Visite d’un village sami traditionnel",
+        "Balade en motoneige sur des pistes isolées",
+        "Pêche sur glace"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "slug": "surf-camp-costa-rica",
+    "image": "image/costa-rica.jpg",
+    "title": "Surf Camp au Costa Rica",
+    "description": "Séjour sportif et détente entre surf, yoga et nature tropicale sur les plages du Pacifique.",
+    "long_description": "Plongez dans l'ambiance décontractée du Costa Rica, un paradis pour les surfeurs et les amoureux de la mer. Le Surf Camp vous accueille sur les plages dorées du Pacifique, avec des vagues parfaites pour tous les niveaux. Profitez d’un cadre naturel préservé où la jungle rencontre l’océan, dans une atmosphère conviviale et ensoleillée.",
+    "start_date": "2026-01-05",
+    "end_date": "2026-01-13",
+    "duration": 8,
+    "price": 1150,
+    "difficulty": "moyenne",
+    "season": "hiver",
+    "steps": [
+      {
+        "title": "Séjour au Surf Camp",
+        "arrival_date": "2026-01-05",
+        "departure_date": "2026-01-13",
+        "location": {
+          "city": "Pacifique, Costa Rica",
+          "gps": "9.7489, -83.7534"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Bungalow tropical",
+              "prix": 500
+            },
+            {
+              "label": "Dortoir partagé",
+              "prix": 450
+            },
+            {
+              "label": "Terrasse avec vue océan",
+              "prix": 460
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Fruits tropicaux",
+              "prix": 100
+            },
+            {
+              "label": "Poisson grillé",
+              "prix": 110
+            },
+            {
+              "label": "Cuisine locale et vegan",
+              "prix": 105
+            }
+          ],
+          "activites": [
+            {
+              "label": "Cours de surf tous niveaux",
+              "prix": 410
+            },
+            {
+              "label": "Yoga sur la plage",
+              "prix": 450
+            },
+            {
+              "label": "Paddle et beach-volley",
+              "prix": 470
+            },
+            {
+              "label": "Feux de camp et soirées animées",
+              "prix": 490
+            }
+          ],
+          "transport": [
+            {
+              "label": "Navette plage",
+              "prix": 140
+            },
+            {
+              "label": "Marche",
+              "prix": 50
+            }
+          ]
+        }
+      }
+    ],
+    "extras": {
+      "excursions": [
+        "Excursion en bateau (dauphins, tortues)",
+        "Randonnée jungle tropicale",
+        "Visite d’un village de pêcheurs",
+        "Initiation à la plongée avec tuba"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "slug": "exploration-volcanique-islande",
+    "image": "image/volcan-islande.jpg",
+    "title": "Exploration volcanique en Islande",
+    "description": "Séjour unique à la découverte des volcans, geysers et sources chaudes de l’Islande.",
+    "long_description": "Découvrez l’Islande autrement avec une exploration volcanique au cœur de paysages lunaires. Ce séjour vous emmène sur des terrains volcaniques actifs et endormis, des champs de lave étendus, et des formations géologiques spectaculaires. Parcourez des sentiers de randonnée uniques, où la puissance de la nature se révèle à chaque pas, entre geysers, sources chaudes et cratères mystérieux.",
+    "start_date": "2026-03-20",
+    "end_date": "2026-03-26",
+    "duration": 6,
+    "price": 1290,
+    "difficulty": "moyenne",
+    "season": "printemps",
+    "steps": [
+      {
+        "title": "Aventure géothermique islandaise",
+        "arrival_date": "2026-03-20",
+        "departure_date": "2026-03-26",
+        "location": {
+          "city": "Islande",
+          "gps": "64.9631, -19.0208"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Hôtel de charme",
+              "prix": 500
+            },
+            {
+              "label": "Auberge islandaise",
+              "prix": 510
+            },
+            {
+              "label": "Chambre avec vue volcanique",
+              "prix": 600
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Buffets islandais",
+              "prix": 300
+            },
+            {
+              "label": "Cuisine locale moderne",
+              "prix": 200
+            },
+            {
+              "label": "Options végétariennes/sans gluten",
+              "prix": 310
+            }
+          ],
+          "activites": [
+            {
+              "label": "Randonnée volcanique guidée",
+              "prix": 400
+            },
+            {
+              "label": "Balade dans les champs de lave",
+              "prix": 420
+            },
+            {
+              "label": "Baignade dans sources chaudes",
+              "prix": 450
+            },
+            {
+              "label": "Démo sur phénomènes géothermiques",
+              "prix": 600
+            }
+          ],
+          "transport": [
+            {
+              "label": "4x4 local",
+              "prix": 90
+            },
+            {
+              "label": "Minibus touristique",
+              "prix": 20
+            }
+          ]
+        }
+      }
+    ],
+    "extras": {
+      "excursions": [
+        "Visite guidée d’un cratère actif",
+        "Excursion 4x4 en zone volcanique",
+        "Randonnée nocturne dans les champs de lave",
+        "Atelier photo paysages volcaniques"
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "slug": "atlas-maroc",
+    "image": "image/atlas.jpg",
+    "title": "Trek dans les montagnes de l’Atlas (Maroc)",
+    "description": "Aventure dans les montagnes de l’Atlas entre vallées verdoyantes, villages berbères et sommets escarpés.",
+    "long_description": "Partez à l'aventure dans les montagnes de l'Atlas au Maroc, une région aux paysages époustouflants mêlant pics escarpés, vallées verdoyantes et villages berbères authentiques. Ce trek vous offre l'opportunité de découvrir des itinéraires riches en contrastes, entre randonner dans des environnements arides et traverser des oasis fleuries, tout en vous imprégnant de la culture locale.",
+    "start_date": "2026-04-10",
+    "end_date": "2026-04-17",
+    "duration": 7,
+    "price": 980,
+    "difficulty": "moyenne",
+    "season": "printemps",
+    "steps": [
+      {
+        "title": "Trek dans les montagnes de l’Atlas",
+        "arrival_date": "2026-04-10",
+        "departure_date": "2026-04-17",
+        "location": {
+          "city": "Atlas",
+          "gps": "31.0675, -7.2000"
+        },
+        "options": {
+          "hebergement": [
+            {
+              "label": "Maison d'hôtes berbère",
+              "prix": 450
+            },
+            {
+              "label": "Petit hôtel de charme",
+              "prix": 430
+            }
+          ],
+          "restauration": [
+            {
+              "label": "Tajine traditionnel",
+              "prix": 50
+            },
+            {
+              "label": "Couscous local",
+              "prix": 60
+            },
+            {
+              "label": "Options végétariennes sur demande",
+              "prix": 55
+            }
+          ],
+          "activites": [
+            {
+              "label": "Randonnée à travers les vallées",
+              "prix": 400
+            },
+            {
+              "label": "Immersion dans la culture berbère",
+              "prix": 430
+            },
+            {
+              "label": "Atelier d'artisanat",
+              "prix": 450
+            },
+            {
+              "label": "Pause thé à la menthe",
+              "prix": 100
+            }
+          ],
+          "transport": [
+            {
+              "label": "Marche",
+              "prix": 80
+            },
+            {
+              "label": "Transfert en 4x4",
+              "prix": 20
+            }
+          ]
+        }
+      }
+    ],
+    "extras": {
+      "excursions": [
+        "Visite guidée d’un village berbère avec atelier",
+        "Excursion 4x4 dans les zones reculées",
+        "Randonnée au coucher du soleil",
+        "Découverte d’un marché traditionnel"
+      ]
+    }
+  }
+]

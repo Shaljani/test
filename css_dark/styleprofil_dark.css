@@ -1,0 +1,92 @@
+body {
+    background-color: #121212;
+    color: white;
+  }
+  
+  /* Header sombre */
+.header {
+    background-color: #1f1f1f;
+    color: white;
+  }
+  
+  .header .logo,
+  .header .navbar a {
+    color: white;
+  }
+  
+  /* Table de profil */
+  .profil-table-container table {
+    background-color: #1e1e1e;
+    color: white;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .profil-table-container th,
+  .profil-table-container td {
+    padding: 15px;
+    border-bottom: 1px solid #333;
+  }
+  
+  .profil-table-container th {
+    background-color: #1a1a1a;
+    font-weight: bold;
+  }
+  
+  .profil-table-container td input {
+    background-color: #2a2a2a;
+    color: white;
+    border: 1px solid #444;
+  }
+  
+  /* Boutons */
+  button,
+  .trip-details-btn {
+    background-color: #e69113;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover,
+  .trip-details-btn:hover {
+    background-color: #ffb938;
+    color: black;
+  }
+  
+/* Footer texte en blanc pour le thème sombre */
+
+.footer-section,
+.footer-container,
+footer {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.footer-section a,
+.footer-bottom {
+  color: white;
+}
+
+.footer-section a:hover {
+  color: #ff7f50;
+}
+
+footer,
+footer h2,
+footer h3,
+footer p,
+footer a,
+.footer-section,
+.footer-bottom {
+color: white !important;
+}
+
+footer a:hover {
+color: #fee126; /* couleur hover lisible */
+}

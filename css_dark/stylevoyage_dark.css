@@ -1,0 +1,129 @@
+/* === GLOBAL === */
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* === CONTENEUR PRINCIPAL === */
+section, form, .voyage-detail, .container, .main-content {
+    background-color: #121212 !important;
+    color: #fff !important;
+}
+
+
+/* === TITRES & TEXTES === */
+h1, h2, h3, h4, h5, h6, p, label, li, a, td, th, span {
+    color: #fff !important;
+}
+
+/* === BLOCS PERSONNALISATION === */
+.bloc-personnalisation,
+.step {
+    background-color: #111 !important;
+    color: #fff !important;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+/* === FORMULAIRES === */
+form input,
+form select,
+input[type="number"],
+select {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #555;
+    padding: 6px 10px;
+    border-radius: 5px;
+    width: auto;
+}
+
+select option {
+    background-color: #111;
+    color: #fff;
+}
+
+/* === BOUTONS === */
+button,
+.recap-btn {
+    background-color: #d70000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover,
+.recap-btn:hover {
+    background-color: #e65c00;
+}
+
+/* === LIEN RETOUR === */
+.btn-retour {
+    color: #ffffff !important;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.btn-retour:hover {
+    text-decoration: underline;
+}
+
+.header {
+    background-color: #1f1f1f !important; /* même que le fond général */
+    color: var(--white) !important;
+    box-shadow: 0px 4px 12px var(--shadow-color);
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .header .logo {
+    color: white !important;
+  }
+  
+  .header .navbar a {
+    color: white !important;
+    transition: color 0.3s;
+  }
+  
+  .header .navbar a:hover {
+    color: var(--primary-color) !important;
+  }
+  
+  .header .menu-reduit {
+    color: var(--noir) !important;
+  }
+  
+  
+  /* FOOTER sombre */
+  footer {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 40px 10%;
+    font-size: 14px;
+  }
+  
+  .footer-section h2,
+  .footer-section h3,
+  .footer-section ul li a,
+  .footer-bottom {
+    color: white;
+  }
+  
+  .footer-section ul li a:hover,
+  .social-icons a:hover {
+    color: #fee126;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  

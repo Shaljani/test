@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Poppins',sans-serif
+}
+:root{
+  --main-color:black;
+  --box-shadow:0.5rem
+}
+
+html {
+  font-size: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 9px ;
+}
+
+
+section{
+  padding: 5rem 10%;
+}
+
+.header{
+  background-color: white;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000 !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* Modification du header pour le rendre blanc */
+.header {
+    background-color: white !important; /* Change le fond en blanc */
+    color: black !important; /* Change le texte en noir */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; /* Ajoute une légère ombre */
+}
+
+
+
+.header .logo{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 0%);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.header .navbar{
+  z-index: 1000;
+}
+
+.header .navbar a{
+  font-size: 15px;
+  margin-left: 2rem;
+  color: black;
+}
+
+#register-btn{
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.header .menu-reduit{
+  color: #000000;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: none;
+}
+
+.menu-redu{
+ display: none;
+ height: 0;
+ position: absolute;
+ right: 2rem;
+ width: 200px;
+ background: rgba(0, 0, 0, 0.2);
+ backdrop-filter: blur(15px);
+ overflow: hidden;
+ border-radius: 10px;
+ transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ 
+}
+
+.menu-redu.open{
+  height: 250px;
+}
+
+.menu-redu a{
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 990px) {
+    .navbar {
+      display: none;
+    }
+  
+    .header .menu-reduit {
+      display: block;  /* Assurer que le menu burger est visible */
+    }
+  
+    .menu-redu {
+      display: block;
+      height: 0;  /* Initialement caché */
+      overflow: hidden;
+      position: absolute;
+      right: 2rem;
+      top: 100px;  /* Juste sous le header */
+      width: 200px;
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(10px);
+      border-radius: 10px;
+      transition: height 0.3s ease-in-out;
+    }
+  
+    .menu-redu.open {
+      height: auto;  /* Ouvre correctement le menu */
+      padding: 10px 0;
+    }
+  
+    .menu-redu a {
+      color: white;
+      display: block;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+
+
+  main {
+    flex: 1;
+  }
+
+  .user-details-card {
+    margin-bottom: 30px; /* Espace entre le contenu et le footer */
+  }
+
+  .user-details-card {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  
+  .user-details-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    row-gap: 12px;
+    column-gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .user-grid div {
+    font-size: 16px;
+  }
+  
+  .user-details-card ul {
+    padding-left: 20px;
+  }
+  
+  .user-details-card li {
+    margin-bottom: 8px;
+  }
+
+  .back-admin-container {
+    text-align: center;
+    margin: 30px 0 50px;
+  }
+  
+  .back-admin-btn {
+    display: inline-block;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-admin-btn:hover {
+    background-color: #003d80;
+  }
+
+  /* Section voyages réservés */
+.reserved-trips {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.reserved-trips ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reserved-trips li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+}
+
+/* Titre de voyage */
+.reserved-trips li span {
+  font-weight: 500;
+  color: #333;
+}
+
+/* Bouton "Voir les détails" */
+.trip-details-btn {
+  padding: 6px 14px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.trip-details-btn:hover {
+  background-color: #0056b3;
+}
+
+  
+
+
+
+
+
+
+
+  footer {
+    background: #ffffff;
+    color: #00203f;
+    padding: 20px 0;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.footer-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.footer-section {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.footer-section h2, 
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #00203f;
+}
+
+.footer-section ul {
+    list-style: none;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #00203f;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fee126;
+}
+
+.social-icons a {
+    color: #00203f;
+    margin-right: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+    border-top: 1px solid #00203f;
+    margin-top: 20px;
+}
